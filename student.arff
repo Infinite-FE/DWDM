@@ -1,0 +1,29 @@
+@relation student
+
+@attribute Name string
+@attribute Er_no numeric
+@attribute Email_ID string
+@attribute Mobile_no numeric
+@attribute CGPA numeric
+@attribute Elective_Subject{Cyber,Cloud,Android,Flutter,Network}
+@attribute Class{Tc1,Tc2,Tc3,Tc4,Tc5}
+@attribute Blood_Group{A+,A-,B+,B-,AB+,AB-,O+,O-}
+@attribute Branch{Computer,Electric,Mechanical,Civil}
+@attribute Semester{1,2,3,4,5,6,7,8}
+@attribute Guide_Name string
+@attribute Hobby string
+@attribute Addmission_Year{2020,2021,2022,2023,2024,2025}
+@attribute Gender{Male, Female}
+@attribute Backlogs{0,1,2,3,4,5,6,7,8}
+@attribute Nationality{India,Other}
+@attribute DOB date "yyyy-mm-dd"
+@attribute Intrested_Job{Professor,Developer,Designer}
+@attribute City{Gujrat,Mahrastra,Rajasthan,Tamilnadu}
+@attribute State{Morbi,Rajkot,Chennai,Malkapur,Ajmer}
+
+@data
+"Mohammadhashim",3055,mohammadhashim45@gmail.com,7096288735,9.5,Cyber,Tc1,O-,Computer,7,Shailendra_Chauhan,Coldrinks,2023,Male,0,India,2004-02-08,Developer,Mahrastra,Malkapur
+"Mahmadnaim",3056,mahmadnaim07@gmail.com,9313959172,8.5,Cloud,Tc1,A+,Computer,7,Wanglen_Soram,Cricket,2023,Male,0,India,2005-05-05,Professor,Tamilnadu,Chennai
+"Samir",3057,Samir18@gmail.com,4785963210,9.0,Android,Tc1,A-,Computer,7,Kishan_Makadiya,Sweets,2023,Male,0,India,2003-08-08,Designer,Rajasthan,Ajmer
+"Yash",3058,yash123@gmail.com,7412589630,8.5,Flutter,Tc1,AB+,Computer,7,Wanglen_Soram,Coldrinks,2023,Male,0,India,2003-09-09,Developer,Gujrat,Morbi
+"Pradip",3082,pradip45@gmail.com,1254789630,8.0,Network,Tc1,AB-,Computer,7,Kishan_Makadiya,Cricket,2023,Male,0,India,2003-10-10,Designer,Gujrat,Rajkot
